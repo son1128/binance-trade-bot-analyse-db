@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 
-
 echo
+echo "----"
 echo "### Current to Target Coin Ratio"
-echo "\`current_coin_ratio.sh\`"
+echo "* _When ratio goes above zero, the bot will buy it via the bridge coin._"
 echo
 
 echo "Date|Current|Target|Ratio"
@@ -55,5 +55,3 @@ ORDER BY
 EOF
 
 echo
-
-echo "_When ratio goes above zero, the bot will buy it via the bridge coin._"

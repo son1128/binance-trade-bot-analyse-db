@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 
-echo
+echo 
+echo "----"
 echo "### All Coins Progress"
-echo "\`all_coin_progress.sh\`"
-echo
+echo 
 
 DATABASE=../../crypto_trading.db
 echo "Coin|Starting value|Last value|Grow %"
