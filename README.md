@@ -4,9 +4,9 @@ Uses Github Actions to automatically analyse the [Binance Trade Bot](https://git
 
 ## How to use
 
-1. Fork this repo in your own personal Github.
+1. Download and then upload this repo in your own personal Github. (If you fork it, you may not be able to set it as private in the next step.)
 
-2. **Go into the Settings tab of the repo and make the repo private** if you do not want everyone to see your coin totals, etc.
+2. **Go into the Settings tab of the repo and ensure the Github repo is private** if you do not want everyone to see your coin totals, etc.
 
 3. Upload the `crypto_trading.db` and `supported_coin_list` from your running instance of the Binance Trade Bot to the root of this repo. If you can automate this, even better.
 
